@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Last Step!</title>
+
+	<script src=JavaScript></script>
+
+	<script>
+
+		alert("Well, you've made it this far.  That means you're at least a little clever.  All that's left is a simple little Javascript password page.\n\nRemember, this may seem hopeless at first, but never forget: JavaScript is 100% client side, so the password has to be here SOMEWHERE.  Don't give up! :-)");
+
+
+		var mypass = prompt("Enter your password");
+	
+		if(mypass==pass)
+		{
+			alert("Congratulations, you passed!");
+			document.location = site;
+		}
+		else
+		{
+			alert("Wrong password");
+		}
+	
+		pass = "password";
+		site = "contest-over.html";
+	</script>
+</head>
+
+<p>
+
